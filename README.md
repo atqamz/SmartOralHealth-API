@@ -77,7 +77,6 @@ Memiliki body sebagai berikut:
 ### /users
 ```
 https://dentist-api.sepaystudio.com/users
-
 ```
 ####  Method GET
  - Get all Users
@@ -99,7 +98,6 @@ status: { type: "enum", values: ["siswa", "guru", "orangtua"] },
 ### /users/:id
 ```
 https://dentist-api.sepaystudio.com/users/:id
-
 ```
 ####  Method GET
  - Get specific User within same id
@@ -124,7 +122,6 @@ status: { type: "enum", values: ["siswa", "guru", "orangtua"], optional: true },
 ### /results
 ```
 https://dentist-api.sepaystudio.com/results
-
 ```
 ####  Method GET
  - Get all Results
@@ -149,7 +146,6 @@ UserId: { type: "number", positive: true, integer: true },
 ### /results/:id
 ```
 https://dentist-api.sepaystudio.com/results/:id
-
 ```
 ####  Method GET
  - Get specific Result within same id

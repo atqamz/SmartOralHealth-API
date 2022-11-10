@@ -1,5 +1,5 @@
 
-# Dentist API
+# SmartOralHealthAPI
 
 Terdapat 2 REST Endpoint, Users dan Results. 
 
